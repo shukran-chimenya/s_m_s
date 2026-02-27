@@ -1,203 +1,128 @@
-# s_m_s by Shukran Chimenya
-v1.0 of the school management system. 
+# School Management System (Console-Based) v1.0
 
+A Python-based **School Management System** designed to help schools manage students, teachers, academic performance, and school analytics through a simple console interface.
 
-School Management System (Console-Based)
+The system supports **role-based authentication**, allowing **Administrators** and **Teachers** to access different features securely.
 
-A Python-based School Management System designed to help schools manage students, teachers, academic performance, and school analytics through a simple console interface.
+---
 
-The system supports role-based authentication, allowing Administrators and Teachers to access different features securely.
+## 📌 Features
 
-📌 Features
+### 🔐 Authentication System
+- Secure login system
+- Role-based access:
+  - **Admin**
+  - **Teacher**
+- Limited login attempts for security
+- Admin can register new users
 
-🔐 Authentication System
+### 🧑‍🎓 Student Management
+- Add new students
+- View students
+- Update student details
+- Delete student records
+- Store student information in CSV files
 
-Secure login system
+### 🧑‍🏫 Teacher Management
+- Register teachers
+- Assign teachers to classes
+- View teacher information
 
-Role-based access:
+### 📈 Student Performance Management
+- Record student scores per subject
+- Store results per term
+- Calculate student averages
+- Retrieve academic records
 
-Admin
-
-Teacher
-
-Limited login attempts for security
-
-Admin can register new users
-
->>>>Student Management
-
-Add new students
-
-View students
-
-Update student details
-
-Delete student records
-
-Store student information in CSV files
-
->>>>Student Performance Management
-
-Record student scores per subject
-
-Store results per Term
-
-Calculate student averages
-
-Retrieve academic records
-
->>> Teacher Management
-
-Register teachers
-
-Assign teachers to classes
-
-View teacher information
-
->>> Performance Analysis
-
+### 📊 Performance Analysis
 The system automatically generates:
+- Term performance trends
+- Student ranking per class
+- Class performance averages
 
-Term performance trends
+### 🏫 School Dashboard
+Provides a summary of school performance, including:
+- Overall school average per term
+- Best performing class 🏆
+- Worst performing class ⚠
+- Best performing teacher 🥇
+- Teachers needing improvement 📉
 
-Student ranking per class
+---
 
-Class performance averages
+## ⚙️ System Requirements
+- **Python 3.8 or higher**
+- Works on:
+  - Windows
+  - Linux
+  - MacOS
+- No external libraries required
 
->>>> School Dashboard
+---
 
-Provides a summary of school performance including:
+## 🔑 Login System
+Users must log in before accessing the system.
 
-📊 Overall school average per term
+**Example users stored in `users.csv`:**
 
-🏆 Best performing class
+| Username | Password  | Role    |
+|----------|-----------|---------|
+| admin    | admin123  | admin   |
+| teacher1 | pass123   | teacher |
 
-⚠ Worst performing class
+**Roles available:**
+- `admin`
+- `teacher`
 
-🥇 Best performing teacher
+---
 
-📉 Teachers needing improvement
-
->>>Project Folder Structure
-school_management_system/
-│
-├── main.py
-├── config.py
-├── auth.py
-│
-├── students/
-│   ├── students_mgmt.py
-|   |---students_performance_mgmt.py
-│
-├── teachers/
-│   ├── teachers_mgmt.py
-|   |--teachers_performance_mgmt.py
-│
-├── dashboard/
-│   ├── school_dashboard.py
-│
-├── utils/
-│   ├── utils.py
-│
-├── data/
-│   ├── students.csv
-│   ├── teachers.csv
-│   ├── users.csv
-│   ├── performance.csv
-│
-└── README.md
-
-⚙️ System Requirements
-
-Python 3.8 or higher
-
-Works on:
-
-Windows
-
-Linux
-
-MacOS
-
-No external libraries are required.
-
->>> Login System
-
-Users must login before accessing the system.
-
-Example users stored in users.csv.
-
->Username,Password,Role
-admin,admin123,admin
-teacher1,pass123,teacher
-
-
->Roles available:
-
-admin
-
-teacher
-
->>> Admin Capabilities
-
+## 🛠 Admin Capabilities
 Admins can:
+- Manage students
+- Register teachers
+- Register system users
+- Record student performance
+- View school dashboard
+- View teacher performance
+- Rank students
+- Analyze term performance
 
-Manage students
+---
 
-Register teachers
-
-Register system users
-
-Record student performance
-
-View school dashboard
-
-View teacher performance
-
-Rank students
-
-Analyze term performance
-
->>>Teacher Capabilities
-
+## 🛠 Teacher Capabilities
 Teachers can:
+- Manage students
+- Record student performance
+- View class results
+- View term analysis
+- Rank students in their class
 
-Manage students
+---
 
-Record student performance
-
-View class results
-
-View term analysis
-
-Rank students in their class
-
->>>Example System Flow
+## 🔄 Example System Flow
+```text
 Start System
-     │
-     ▼
-Login Screen
-     │
-     ▼
-Role Detected
-     │
+      │
+      ▼
+   Login Screen
+      │
+      ▼
+   Role Detected
  ┌───────┴────────┐
  ▼                ▼
-Admin Menu     Teacher Menu
+Admin Menu      Teacher Menu
+💾 Data Storage
 
+The system stores data using CSV files:
 
->>>Data Storage
-
-The system stores data using CSV files.
-
->File	        Purpose
-
+File               	Purpose
 students.csv	Stores student information
 teachers.csv	Stores teacher details
-users.csv	    Stores login credentials
+users.csv	     Stores login credentials
 performance.csv	Stores student scores
 
->>> Security Features
+
+🔒 Security Features
 
 Login attempt limit
 
@@ -205,32 +130,49 @@ Role-based access control
 
 Restricted admin features
 
->>>Future Improvements
+📂 Project Folder Structure
+school_management_system/
+│
+├── main.py
+├── config.py
+├── auth.py
+├── students/
+│   ├── students_mgmt.py
+│   └── students_performance_mgmt.py
+├── teachers/
+│   ├── teachers_mgmt.py
+│   └── teachers_performance_mgmt.py
+├── dashboard/
+│   └── school_dashboard.py
+├── utils/
+│   └── utils.py
+├── data/
+│   ├── students.csv
+│   ├── teachers.csv
+│   ├── users.csv
+│   └── performance.csv
+└── README.md
+
+
+🚀 Future Improvements
 
 Database integration (SQLite)
-
 GUI version (Tkinter)
-
 Automatic report card generation
-
 Graph-based analytics
-
 Web-based system (Flask)
 
->>> Author/ Shukran Chimenya
-
-I developed the system as a learning project to demonstrate:
-
+👤 Author
+Shukran Chimenya
+I developed this system as a learning project to demonstrate:
 File handling
-
 Modular programming
-
 Role-based systems
-
 Data analysis in Python
 
->>>License
+📄 License
 
 This project is open-source and free to use for educational purposes.
 
-System Status: Stable and fully functional.⚖️
+System Status: Stable and fully functional ⚖️
+
