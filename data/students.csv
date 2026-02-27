@@ -1,0 +1,23 @@
+Unique_ID,Name,Age,Gender,Class,Date_OF_Join,Disability,Orphanhood,First_Entry_or_repeater,Village
+ST001,Shukran Chimenya,30,Male,Standard 8,02/22/26 15:36:00,N,No,First Entry,Kapsepse
+ST002,Shareef Kajosolo,21,Male,Standard 7,02/22/26 15:36:47,N,No,Repeater,Kapsepse
+ST003,Zuleikha Chimenya,8,Female,Standard 3,02/22/26 17:22:48,N,No,First Entry,Issa Mwamadi
+ST004,Yumnah Chimenya,2,Female,Standard 1,02/22/26 17:24:00,N,No,First Entry,Issa Mwamadi
+ST005,Rumaisah Chimenya,2,Female,Standard 1,02/22/26 17:24:58,N,No,First Entry,Nkanda
+ST006,Bridget Mbwana,25,Female,Standard 7,02/22/26 17:26:30,N,No,First Entry,Zilindo
+ST007,Benadetta Mbwana,13,Female,Standard 5,02/22/26 17:27:08,N,No,First Entry,Zilindo
+ST008,Chikondi Samu,30,Male,Standard 8,02/22/26 17:28:02,N,No,First Entry,Petermtenda
+ST009,Maeso Samu,15,Male,Standard 7,02/22/26 17:30:14,N,No,First Entry,Petermtenda
+ST010,Yankho Robert,10,Female,Standard 5,02/22/26 17:31:49,N,No,First Entry,Issa Mwamadi
+ST011,Eliza Chigamba,15,Female,Standard 6,02/22/26 17:32:59,N,No,First Entry,Issa Mwamadi
+ST012,Steven Chigamba,38,Male,Standard 7,02/22/26 17:34:23,N,No,Repeater,Chinyama
+ST013,Sajid Kajosolo,4,Male,Standard 2,02/22/26 17:35:20,N,No,First Entry,Petermtenda
+ST014,Fahad Kajosolo,14,Male,Standard 6,02/22/26 17:36:32,N,No,First Entry,Nkanda
+ST015,Hamza Chituwa,20,Male,Standard 4,02/22/26 17:38:08,N,No,First Entry,Nkanda
+ST016,Haroon Chituwa,25,Male,Standard 7,02/22/26 17:39:12,N,No,First Entry,Kapsepse
+ST017,Naeem Pawira,17,Male,Standard 6,02/22/26 17:40:03,N,No,First Entry,Kapsepse
+ST018,Nooh Kananji,30,Male,Standard 3,02/22/26 17:41:37,N,No,Repeater,Kapsepse
+ST019,Hawa Kananji,20,Female,Standard 5,02/22/26 17:42:33,N,No,Repeater,Kapsepse
+ST020,Chimwemwe Chibwana,20,Female,Standard 1,02/22/26 17:43:14,N,No,Repeater,Mbengule
+ST021,Prince Kalima,30,Male,Standard 4,02/22/26 17:44:02,N,No,Repeater,Kapsepse
+ST022,Magret Kajosolo,20,Female,Standard 3,02/22/26 17:44:51,N,No,First Entry,Kapsepse

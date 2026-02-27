@@ -1,0 +1,9 @@
+Emp_ID,Name,Age,Gender,Class_Assigned,Date_OF_Join,# of Students in Class,Program
+T001,Jamila Saidi,40,Female,Standard 8,02/22/26 17:00:48,50,Ipte 19
+T002,Ajibu Kajosolo,56,Male,Standard 1,02/22/26 17:01:50,30,Ipte 13
+T003,Mymooner Kajosolo,38,Female,Standard 2,02/22/26 17:02:38,30,Ipte 14
+T004,Kassim Kajosolo,35,Male,Standard 3,02/22/26 17:03:33,30,Ipte 15
+T005,Shammil Kajosolo,34,Male,Standard 4,02/22/26 17:08:21,30,Ipte 15
+T006,Nusyba Kajosolo,45,Female,Standard 5,02/22/26 17:05:21,30,Ipte 15
+T007,Mariam Hussein,26,Female,Standard 6,02/22/26 17:05:58,30,Ipte 20
+T008,Alfred Singano,40,Male,Standard 7,02/22/26 17:06:52,30,Ipte 16
